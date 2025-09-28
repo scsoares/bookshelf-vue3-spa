@@ -23,7 +23,7 @@
         <img v-else src="../assets/icons/bookIcon.svg" alt="Closed Book Icon" class="h-12 w-12" />
       </div>
       <div class="flex flex-col">
-        <h3 class="max-w-96 truncate text-xl font-bold">{{ book.title }}</h3>
+        <h3 class="max-w-48 truncate text-xl font-bold lg:max-w-96">{{ book.title }}</h3>
         <h4>{{ book.author }}</h4>
       </div>
     </div>

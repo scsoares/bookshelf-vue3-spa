@@ -9,7 +9,7 @@
       :aria-describedby="'delete-modal-desc'"
       @keydown.esc.prevent="emit('closeDelete')"
     >
-      <div class="rounded-xl bg-white p-6 shadow-lg" tabindex="0">
+      <div class="mx-5 rounded-xl bg-white p-6 shadow-lg lg:mx-0" tabindex="0">
         <h2 id="delete-modal-title" class="mb-4 text-xl font-bold">Confirm Deletion</h2>
         <p id="delete-modal-desc" class="mb-4">
           Are you sure you want to delete

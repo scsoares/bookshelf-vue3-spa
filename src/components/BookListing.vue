@@ -1,8 +1,8 @@
 ﻿<template>
-  <div class="h-full w-full" role="region" aria-label="Book list section">
+  <div class="w-full lg:min-h-[900px]" role="region" aria-label="Book list section">
     <div class="flex h-1/2 flex-col justify-start gap-5">
       <div class="flex items-center justify-between gap-10 pr-2">
-        <strong class="text-3xl" id="books-heading">Your books</strong>
+        <strong class="hidden text-3xl lg:block" id="books-heading">Your books</strong>
 
         <div class="flex items-end gap-5">
           <strong id="sort-label">Sort by:</strong>
@@ -32,7 +32,7 @@
 
       <div v-if="books.length">
         <div
-          class="h-148 flex flex-col justify-between"
+          class="lg:h-100 flex h-auto flex-col justify-between"
           role="list"
           aria-labelledby="books-heading"
         >

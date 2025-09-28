@@ -6,8 +6,8 @@
     @hideToast="isToastVisible = false"
     :isToastSuccess="isToastSuccess"
   />
-  <div class="flex h-full w-full justify-center bg-white">
-    <div class="flex h-screen w-1/2 flex-col items-center justify-start p-10">
+  <div class="flex h-full w-full flex-col justify-center bg-white lg:flex-row">
+    <div class="w-full flex-col items-center justify-start p-10 lg:h-screen lg:w-1/2 lg:flex-col">
       <BookListing
         :books="books"
         role="region"
@@ -17,8 +17,8 @@
         @selectBook="seeBookDetails"
       />
 
-      <div class="flex w-full items-center justify-between">
-        <div class="w-1/2">
+      <div class="mt-5 flex w-full flex-col items-center justify-between lg:mt-0 lg:flex-row">
+        <div class="w-full lg:w-1/2">
           <input
             v-model="searchQuery"
             type="text"
