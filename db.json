@@ -1,0 +1,404 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "published": "2008-08-01",
+      "category": "Software",
+      "stock": 3
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt & David Thomas",
+      "published": "1999-10-20",
+      "category": "Software",
+      "stock": 5
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns",
+      "author": "Erich Gamma et al.",
+      "published": "1994-10-21",
+      "category": "Software",
+      "stock": 4
+    },
+    {
+      "id": 4,
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "published": "1999-07-08",
+      "category": "Software",
+      "stock": 2
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "published": "2009-07-31",
+      "category": "Software",
+      "stock": 6
+    },
+    {
+      "id": 6,
+      "title": "Code Complete",
+      "author": "Steve McConnell",
+      "published": "2004-06-19",
+      "category": "Software",
+      "stock": 3
+    },
+    {
+      "id": 7,
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "published": "2015-07-01",
+      "category": "Software",
+      "stock": 7
+    },
+    {
+      "id": 8,
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "published": "2015-12-27",
+      "category": "Software",
+      "stock": 5
+    },
+    {
+      "id": 9,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "published": "2018-12-04",
+      "category": "Software",
+      "stock": 4
+    },
+    {
+      "id": 10,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "published": "2015-11-01",
+      "category": "Software",
+      "stock": 6
+    },
+    {
+      "id": 11,
+      "title": "The Art of Computer Programming",
+      "author": "Donald Knuth",
+      "published": "1968-01-01",
+      "category": "Software",
+      "stock": 1
+    },
+    {
+      "id": 12,
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "published": "2004-10-25",
+      "category": "Software",
+      "stock": 5
+    },
+    {
+      "id": 13,
+      "title": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "published": "1975-01-01",
+      "category": "Software",
+      "stock": 2
+    },
+    {
+      "id": 14,
+      "title": "Continuous Delivery",
+      "author": "Jez Humble & David Farley",
+      "published": "2010-07-27",
+      "category": "Software",
+      "stock": 3
+    },
+    {
+      "id": 15,
+      "title": "Working Effectively with Legacy Code",
+      "author": "Michael Feathers",
+      "published": "2004-09-30",
+      "category": "Software",
+      "stock": 2
+    },
+    {
+      "id": 16,
+      "title": "Soft Skills",
+      "author": "John Sonmez",
+      "published": "2014-12-29",
+      "category": "Career",
+      "stock": 4
+    },
+    {
+      "id": 17,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "published": "2016-01-05",
+      "category": "Productivity",
+      "stock": 6
+    },
+    {
+      "id": 18,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "published": "2018-10-16",
+      "category": "Self-help",
+      "stock": 8
+    },
+    {
+      "id": 19,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "published": "2011-09-13",
+      "category": "Business",
+      "stock": 5
+    },
+    {
+      "id": 20,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "published": "2014-09-16",
+      "category": "Business",
+      "stock": 3
+    },
+    {
+      "id": 21,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "published": "2011-01-01",
+      "category": "History",
+      "stock": 4
+    },
+    {
+      "id": 22,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "published": "2018-02-20",
+      "category": "Biography",
+      "stock": 6
+    },
+    {
+      "id": 23,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "published": "2016-09-13",
+      "category": "Self-help",
+      "stock": 7
+    },
+    {
+      "id": 24,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "published": "2011-10-25",
+      "category": "Psychology",
+      "stock": 5
+    },
+    {
+      "id": 25,
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "published": "1946-01-01",
+      "category": "Psychology",
+      "stock": 4
+    },
+    {
+      "id": 26,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "published": "1988-01-01",
+      "category": "Fiction",
+      "stock": 6
+    },
+    {
+      "id": 27,
+      "title": "1984",
+      "author": "George Orwell",
+      "published": "1949-06-08",
+      "category": "Fiction",
+      "stock": 5
+    },
+    {
+      "id": 28,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "published": "1960-07-11",
+      "category": "Fiction",
+      "stock": 4
+    },
+    {
+      "id": 29,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "published": "1925-04-10",
+      "category": "Fiction",
+      "stock": 3
+    },
+    {
+      "id": 30,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "published": "1851-10-18",
+      "category": "Fiction",
+      "stock": 2
+    },
+    {
+      "id": 31,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "published": "1951-07-16",
+      "category": "Fiction",
+      "stock": 4
+    },
+    {
+      "id": 32,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "published": "1932-01-01",
+      "category": "Fiction",
+      "stock": 3
+    },
+    {
+      "id": 33,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "published": "1937-09-21",
+      "category": "Fantasy",
+      "stock": 6
+    },
+    {
+      "id": 34,
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "published": "1954-07-29",
+      "category": "Fantasy",
+      "stock": 4
+    },
+    {
+      "id": 35,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "published": "1997-06-26",
+      "category": "Fantasy",
+      "stock": 8
+    },
+    {
+      "id": 36,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "published": "2007-03-27",
+      "category": "Fantasy",
+      "stock": 3
+    },
+    {
+      "id": 37,
+      "title": "Mistborn: The Final Empire",
+      "author": "Brandon Sanderson",
+      "published": "2006-07-17",
+      "category": "Fantasy",
+      "stock": 5
+    },
+    {
+      "id": 38,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "published": "1965-06-01",
+      "category": "Science Fiction",
+      "stock": 4
+    },
+    {
+      "id": 39,
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "published": "1985-01-15",
+      "category": "Science Fiction",
+      "stock": 3
+    },
+    {
+      "id": 40,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "published": "1951-06-01",
+      "category": "Science Fiction",
+      "stock": 2
+    },
+    {
+      "id": 41,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "published": "1984-07-01",
+      "category": "Science Fiction",
+      "stock": 3
+    },
+    {
+      "id": 42,
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "published": "2011-08-16",
+      "category": "Science Fiction",
+      "stock": 6
+    },
+    {
+      "id": 43,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "published": "2011-09-27",
+      "category": "Science Fiction",
+      "stock": 5
+    },
+    {
+      "id": 44,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "published": "2006-09-26",
+      "category": "Fiction",
+      "stock": 4
+    },
+    {
+      "id": 45,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "published": "2012-06-05",
+      "category": "Thriller",
+      "stock": 5
+    },
+    {
+      "id": 46,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "published": "2005-08-01",
+      "category": "Thriller",
+      "stock": 4
+    },
+    {
+      "id": 47,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "published": "2003-04-03",
+      "category": "Thriller",
+      "stock": 6
+    },
+    {
+      "id": 48,
+      "title": "Angels & Demons",
+      "author": "Dan Brown",
+      "published": "2000-05-01",
+      "category": "Thriller",
+      "stock": 3
+    },
+    {
+      "id": 49,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "published": "1977-01-28",
+      "category": "Horror",
+      "stock": 4
+    },
+    {
+      "id": 50,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "published": "1897-05-26",
+      "category": "Horror",
+      "stock": 2
+    }
+  ]
+}

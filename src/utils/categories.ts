@@ -1,0 +1,16 @@
+﻿export const categories = [
+  { id: 1, name: 'Self-help' },
+  { id: 2, name: 'Fiction' },
+  { id: 3, name: 'Software' },
+  { id: 4, name: 'Productivity' },
+  { id: 5, name: 'Horror' },
+  { id: 6, name: 'Science Fiction' },
+  { id: 7, name: 'Biography' },
+  { id: 8, name: 'Thriller' },
+  { id: 9, name: 'Fantasy' },
+  { id: 10, name: 'Psychology' },
+  { id: 11, name: 'History' },
+  { id: 12, name: 'Career' },
+  { id: 13, name: 'Business' },
+  { id: 14, name: 'Other' },
+]
