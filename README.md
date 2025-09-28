@@ -42,7 +42,7 @@ npm install
 touch .env
 ```
 
-- This will create an .env file where you should create a variable called "BASE_URL". (if your API port is 3005, the variable should store the string "http://localhost:3005")
+- This will create an .env file where you should create a variable called "VITE_BASE_URL". (if your API port is 3005, the variable should store the string "http://localhost:3005")
 
 ### 4. Run the db in a terminal
 

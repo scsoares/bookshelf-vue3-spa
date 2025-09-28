@@ -1,6 +1,6 @@
 ﻿import type { Book } from '@/types/types.interface'
 
-const BASE_URL = import.meta.env.BASE_URL
+const BASE_URL = import.meta.env.VITE_BASE_URL
 
 //I extracted total count of books in the getBooks call to define totalPages in Appp.vue and send it to BookListing.vue
 
