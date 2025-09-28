@@ -23,7 +23,7 @@ Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/scsoares/bookshelf-vue3-spa
-cd vue3-bookshelf-spa-main
+cd bookshelf-vue3-spa
 ```
 
 ### 2. Install dependencies
